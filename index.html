@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <script
+      src="https://kit.fontawesome.com/8ecc7da907.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Ping</h1>
+      <p>We are launching <span>soon!</span></p>
+      <p>Subscribe and get notified</p>
+      <form action="/action_page.php" method="get" target="_blank">
+        <input
+          id="email-field"
+          type="email"
+          placeholder="Your email address..."
+          spellcheck="false"
+          onkeyup="validateEmailAddress()"
+        />
+        <span id="email-error"></span>
+        <!-- <p ></p> -->
+        <input id="submit" type="submit" value="Notify Me" />
+      </form>
+    </header>
+    <main class="wrapper">
+      <img
+        src="./images/illustration-dashboard.png"
+        alt="illustration-dashboard"
+      />
+    </main>
+    <footer>
+      <section class="social_media">
+        <ul>
+          <li>
+            <a href="./index.html" rel="noopener"
+              ><i class="fa fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./index.html" rel="noopener"
+              ><i class="fa fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./index.html" rel="noopener"
+              ><i class="fa fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
+      <p class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/ZMBAIG" target="_blank" rel="noopener"
+          >ZM Baig</a
+        >.
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
